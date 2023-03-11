@@ -1,0 +1,166 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(Norse-Bold.otf)
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    min-height: 100vh;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.picture-side {
+    display: flex;
+}
+
+.form-side {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.text-box {
+    display: flex;
+    background-color: #f9fafb;
+    height: 40%;
+    width: 100%;
+    align-items: flex-end;
+    font-size: 24px;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.content-box {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    /* box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1); */
+
+}
+
+.bottom-right {
+    display: flex;
+    height: 40%;
+    background-color: #f9fafb;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.sub-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#sendBtn {
+    background-color: #596D48;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 7px 8px;
+    
+}
+
+.top-two {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+.middle-two {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+.bottom-two {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 4px 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 2px 1px
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+legend {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.inner-text {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+a {
+    color: #596D48;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+}
+
+.imtip {
+    position: absolute;
+    right: 150px;
+    height: 150px;
+    top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+
+}
+
+.imtext {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 80px;
+    font-family: my-cool-font;
+    color: #f9fafb;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+ 
+
+}
+
+
+
