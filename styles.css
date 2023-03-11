@@ -18,7 +18,7 @@ body {
 
 
 .picture-side {
-    display: flex;
+    width: 100%;
 }
 
 .form-side {
@@ -31,8 +31,6 @@ body {
 img {
     max-width: 100vh;
     max-height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
 .text-box {
@@ -54,8 +52,7 @@ img {
     width: 100%;
     margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 40px;
-    /* box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
 
 }
 
@@ -110,7 +107,7 @@ input {
     border: 1px solid black;
     border-radius: 24px;
     padding: 4px 16px;
-    box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 2px 1px
+    box-shadow: rgba(0, 0, 0, 0.1) 6px 7px 2px 1px;
 }
 
 label {
@@ -136,7 +133,7 @@ a {
     color: #596D48;
 }
 
-.logo {
+/* .logo {
     position: relative;
     display: flex;
 }
@@ -146,8 +143,6 @@ a {
     right: 150px;
     height: 150px;
     top: 0px;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-
 }
 
 .imtext {
@@ -157,10 +152,42 @@ a {
     font-size: 80px;
     font-family: my-cool-font;
     color: #f9fafb;
-    /* background-color: rgba(0, 0, 0, 0.4); */
- 
+} */
 
+.picture-side .picture-side-image {
+    align-self: stretch;
+    width: 100%;
+    align-items: center;
+    display: flex;
 }
 
+.picture-side .picture-side-image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
 
+.picture-side .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
 
+  .picture-side .logo img {
+    width: 25%;
+    max-width: 100px;
+  }
+  
+  .picture-side .logo h1 {
+    color: white;
+    font-size: 82px;
+    font-family: my-cool-font;
+    text-transform: uppercase;
+  }
